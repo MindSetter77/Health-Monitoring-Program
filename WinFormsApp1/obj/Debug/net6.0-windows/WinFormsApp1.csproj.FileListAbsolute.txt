@@ -1,0 +1,34 @@
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.exe
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.deps.json
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.runtimeconfig.json
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form1.resources
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfo.cs
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.dll
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\obj\Debug\net6.0-windows\refint\WinFormsApp1.dll
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
+C:\Users\oleks\Desktop\Nowy folder\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Properties.Resources.resources
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.exe
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.deps.json
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.runtimeconfig.json
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.dll
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\bin\Debug\net6.0-windows\WinFormsApp1.pdb
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form1.resources
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Properties.Resources.resources
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.GenerateResource.cache
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.GeneratedMSBuildEditorConfig.editorconfig
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfoInputs.cache
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.AssemblyInfo.cs
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.CoreCompileInputs.cache
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.dll
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\refint\WinFormsApp1.dll
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.pdb
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
