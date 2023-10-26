@@ -99,7 +99,7 @@
             choosePanel.Controls.Add(pictureBox2);
             choosePanel.Controls.Add(button2);
             choosePanel.Controls.Add(button1);
-            choosePanel.Location = new Point(306, 74);
+            choosePanel.Location = new Point(306, 72);
             choosePanel.Name = "choosePanel";
             choosePanel.Size = new Size(355, 431);
             choosePanel.TabIndex = 0;
@@ -159,7 +159,7 @@
             // 
             // textBox1
             // 
-            textBox1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             textBox1.Location = new Point(61, 157);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
@@ -190,7 +190,7 @@
             registerPanel.Controls.Add(textBox3);
             registerPanel.Controls.Add(textBox4);
             registerPanel.Controls.Add(button5);
-            registerPanel.Location = new Point(306, 74);
+            registerPanel.Location = new Point(306, 73);
             registerPanel.Name = "registerPanel";
             registerPanel.Size = new Size(355, 431);
             registerPanel.TabIndex = 4;
@@ -198,7 +198,7 @@
             // textBox6
             // 
             textBox6.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox6.Location = new Point(61, 179);
+            textBox6.Location = new Point(61, 177);
             textBox6.Multiline = true;
             textBox6.Name = "textBox6";
             textBox6.PlaceholderText = "Email";
@@ -239,7 +239,7 @@
             // textBox3
             // 
             textBox3.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox3.Location = new Point(61, 233);
+            textBox3.Location = new Point(61, 231);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
             textBox3.PlaceholderText = "Password";
@@ -248,7 +248,7 @@
             // 
             // textBox4
             // 
-            textBox4.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox4.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             textBox4.Location = new Point(61, 120);
             textBox4.Multiline = true;
             textBox4.Name = "textBox4";
