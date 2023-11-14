@@ -18,6 +18,7 @@ namespace WinFormsApp1
         {
             choosePanel.Visible = false;
             loginPanel.Visible = true;
+
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -36,6 +37,35 @@ namespace WinFormsApp1
         {
             registerPanel.Visible = false;
             choosePanel.Visible = true;
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+            String login = textBox1.Text;
+            String password = textBox2.Text;
+
+            if (login == "Alex")
+            {
+                if (password == "123")
+                {
+                    MessageBox.Show("Zalogowano");
+                }
+                else
+                {
+                    MessageBox.Show("Nieprawid³owe has³o");
+                }
+
+            }
+            else
+            {
+                MessageBox.Show("Nie rozpoznano u¿ytkownika");
+            }
+
+
+            textBox1.Text = "";
+            textBox2.Text = "";
+
         }
     }
 }

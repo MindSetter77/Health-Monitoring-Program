@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             pictureBox1 = new PictureBox();
             button1 = new Button();
             button2 = new Button();
@@ -35,10 +36,6 @@
             pictureBox2 = new PictureBox();
             loginPanel = new Panel();
             backButton = new Button();
-            pictureBox3 = new PictureBox();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
-            button4 = new Button();
             registerPanel = new Panel();
             textBox6 = new TextBox();
             textBox5 = new TextBox();
@@ -47,18 +44,22 @@
             textBox3 = new TextBox();
             textBox4 = new TextBox();
             button5 = new Button();
+            pictureBox3 = new PictureBox();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
+            button4 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             choosePanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             loginPanel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             registerPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = Properties.Resources.background;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(973, 596);
@@ -99,7 +100,7 @@
             choosePanel.Controls.Add(pictureBox2);
             choosePanel.Controls.Add(button2);
             choosePanel.Controls.Add(button1);
-            choosePanel.Location = new Point(306, 72);
+            choosePanel.Location = new Point(23, 80);
             choosePanel.Name = "choosePanel";
             choosePanel.Size = new Size(355, 431);
             choosePanel.TabIndex = 0;
@@ -138,48 +139,6 @@
             backButton.UseVisualStyleBackColor = true;
             backButton.Click += backButton_Click;
             // 
-            // pictureBox3
-            // 
-            pictureBox3.Image = Properties.Resources.logo_small;
-            pictureBox3.Location = new Point(126, 26);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(100, 100);
-            pictureBox3.TabIndex = 3;
-            pictureBox3.TabStop = false;
-            // 
-            // textBox2
-            // 
-            textBox2.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox2.Location = new Point(62, 239);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.PlaceholderText = "Password";
-            textBox2.Size = new Size(233, 35);
-            textBox2.TabIndex = 2;
-            // 
-            // textBox1
-            // 
-            textBox1.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(61, 157);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "Login";
-            textBox1.Size = new Size(233, 38);
-            textBox1.TabIndex = 1;
-            // 
-            // button4
-            // 
-            button4.BackColor = Color.DeepSkyBlue;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            button4.ForeColor = SystemColors.ControlLightLight;
-            button4.Location = new Point(61, 307);
-            button4.Name = "button4";
-            button4.Size = new Size(233, 50);
-            button4.TabIndex = 0;
-            button4.Text = "Login";
-            button4.UseVisualStyleBackColor = false;
-            // 
             // registerPanel
             // 
             registerPanel.BackColor = Color.White;
@@ -190,7 +149,7 @@
             registerPanel.Controls.Add(textBox3);
             registerPanel.Controls.Add(textBox4);
             registerPanel.Controls.Add(button5);
-            registerPanel.Location = new Point(306, 73);
+            registerPanel.Location = new Point(467, 74);
             registerPanel.Name = "registerPanel";
             registerPanel.Size = new Size(355, 431);
             registerPanel.TabIndex = 4;
@@ -269,6 +228,49 @@
             button5.Text = "Register";
             button5.UseVisualStyleBackColor = false;
             // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = Properties.Resources.logo_small;
+            pictureBox3.Location = new Point(126, 26);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(100, 100);
+            pictureBox3.TabIndex = 3;
+            pictureBox3.TabStop = false;
+            // 
+            // textBox2
+            // 
+            textBox2.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox2.Location = new Point(62, 239);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.PlaceholderText = "Password";
+            textBox2.Size = new Size(233, 35);
+            textBox2.TabIndex = 2;
+            // 
+            // textBox1
+            // 
+            textBox1.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            textBox1.Location = new Point(61, 157);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.PlaceholderText = "Login";
+            textBox1.Size = new Size(233, 38);
+            textBox1.TabIndex = 1;
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.DeepSkyBlue;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            button4.ForeColor = SystemColors.ControlLightLight;
+            button4.Location = new Point(61, 307);
+            button4.Name = "button4";
+            button4.Size = new Size(233, 50);
+            button4.TabIndex = 0;
+            button4.Text = "Login";
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -286,10 +288,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             loginPanel.ResumeLayout(false);
             loginPanel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             registerPanel.ResumeLayout(false);
             registerPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
         }
 
