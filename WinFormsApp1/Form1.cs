@@ -1,3 +1,7 @@
+using System.Xml.Serialization;
+
+using MySql.Data.MySqlClient;
+
 namespace WinFormsApp1
 {
     public partial class Form1 : Form
@@ -45,21 +49,45 @@ namespace WinFormsApp1
             String login = textBox1.Text;
             String password = textBox2.Text;
 
-            if (login == "Alex")
+            String mysqlCon = "server=127.0.0.1; user=root; database=hrdb; password=";
+            MySqlConnection sqlconn = new MySqlConnection(mysqlCon);
+            try
             {
-                if (password == "123")
+                sqlconn.Open();
+                if(String.IsNullOrEmpty(login) || String.IsNullOrEmpty(password))
                 {
-                    MessageBox.Show("Zalogowano");
+                    MessageBox.Show("Uzupe³nij wszystkie pola");
                 }
                 else
                 {
-                    MessageBox.Show("Nieprawid³owe has³o");
+                    MySqlCommand mySqlCommand = new MySqlCommand("select * from users", sqlconn);
+                    MySqlDataReader reader = mySqlCommand.ExecuteReader();
+                    Boolean logged = false;
+                    while(reader.Read())
+                    {
+                        if (login.Equals(reader.GetString("username")) && password.Equals(reader.GetString("password")))
+                        {
+                            logged = true;
+                        }
+                    }
+                    if (logged == false)
+                    {
+                        MessageBox.Show("Nie rozpoznano u¿ytkownika");
+                    }
+                    else
+                    {
+                        MessageBox.Show("Zalogowano jako " + login);
+                    }
                 }
 
             }
-            else
+            catch (Exception ex)
             {
-                MessageBox.Show("Nie rozpoznano u¿ytkownika");
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                sqlconn.Close();
             }
 
 
