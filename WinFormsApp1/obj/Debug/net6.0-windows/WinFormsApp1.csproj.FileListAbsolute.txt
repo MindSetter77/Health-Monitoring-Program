@@ -53,3 +53,5 @@ X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\bin\Debug\net6.0-wind
 X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.AssemblyReference.cache
 X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.sourcelink.json
 X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.csproj.CopyComplete
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form2.resources
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form3.resources
