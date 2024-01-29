@@ -440,8 +440,8 @@ namespace WinFormsApp1
         private void button6_Click(object sender, EventArgs e)
         {
             dgv_instance = dataGridView1;
-            Form2 f2 = new Form2();
-            f2.Show();
+            MealForm mealForm = new MealForm();
+            mealForm.Show();
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -452,8 +452,8 @@ namespace WinFormsApp1
         private void button7_Click(object sender, EventArgs e)
         {
             dgv_instance = dataGridView1;
-            Form3 f3 = new Form3();
-            f3.Show();
+            MealForm mealForm = new MealForm();
+            mealForm.Show();
         }
     }
 }
