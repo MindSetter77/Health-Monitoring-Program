@@ -28,31 +28,10 @@ namespace WinFormsApp1
 
         }
 
-        private string makeMealId(DateTime time)
-        {
-            int[] desiredPositions = { 0, 1, 3, 4, 6, 7, 8, 9 };
-            string result = "";
-
-            string originalString = time.ToString();
-
-            foreach (var position in desiredPositions)
-            {
-                if (position < originalString.Length) // Sprawdź, czy pozycja nie wykracza poza długość stringa
-                {
-                    result += originalString[position]; // Dodaj znak z danej pozycji do wyniku
-                }
-            }
-
-
-            return result;
-
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             DateTime dz = Form1.instance.dzienWyswietlany;
-            string id = makeMealId(dz);
+            string id = MealIdGenerator.MakeMealId(dz);
             
 
             String posilekStr = posilek.Text;

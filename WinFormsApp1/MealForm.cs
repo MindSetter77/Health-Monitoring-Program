@@ -178,6 +178,10 @@ namespace WinFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            DateTime dz = Form1.instance.dzienWyswietlany;
+            string id = MealIdGenerator.MakeMealId(dz);
+            int midn = Form1.instance.dgv_instance.RowCount;
+
             // Pobierz wpisaną wagę produktu z TextBox
             double weight;
             if (!double.TryParse(textBox1.Text, out weight))
@@ -201,11 +205,14 @@ namespace WinFormsApp1
             sqlconn.Open();
 
 
-            string sql = "INSERT INTO meal (meal, weight, calories) VALUES (@meal, @weight, @calories)";
+            string sql = "INSERT INTO meal (user_id, date_id, meal_in_day_number, meal, weight, calories) VALUES (@user_id, @date_id , @meal_in_day_number, @meal, @weight, @calories)";
             MySqlCommand cmd = new MySqlCommand(sql, sqlconn);
             cmd.Parameters.AddWithValue("@meal", selectedMeal);
             cmd.Parameters.AddWithValue("@weight", weight);
             cmd.Parameters.AddWithValue("@calories", predictedCalories);
+            cmd.Parameters.AddWithValue("@user_id", 0);
+            cmd.Parameters.AddWithValue("@date_id", id);
+            cmd.Parameters.AddWithValue("@meal_in_day_number", midn.ToString());
 
             cmd.ExecuteNonQuery();
 
