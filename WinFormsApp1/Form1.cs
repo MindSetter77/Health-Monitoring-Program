@@ -452,8 +452,8 @@ namespace WinFormsApp1
         private void button7_Click(object sender, EventArgs e)
         {
             dgv_instance = dataGridView1;
-            MealForm mealForm = new MealForm();
-            mealForm.Show();
+            Form3 deleteMeal = new Form3(MealIdGenerator.MakeMealId(dzienWyswietlany));
+            deleteMeal.Show();
         }
     }
 }

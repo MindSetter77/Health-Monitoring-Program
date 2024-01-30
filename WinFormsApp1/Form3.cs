@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,15 +13,31 @@ namespace WinFormsApp1
 {
     public partial class Form3 : Form
     {
-        public Form3()
+        String dayId;
+
+        public Form3(String dayId)
         {
             InitializeComponent();
+            this.dayId = dayId;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int row = Form1.instance.dgv_instance.RowCount;
-            MessageBox.Show(row.ToString());
+            
+            MessageBox.Show(dayId);
+
+            string mysqlCon = "server=127.0.0.1; user=root; database=hrdb; password=";
+            MySqlConnection sqlconn = new MySqlConnection(mysqlCon);
+            sqlconn.Open();
+
+            string query = "DELETE FROM meal WHERE user_id = 0";
+
+            MySqlCommand cmd = new MySqlCommand(query, sqlconn);
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

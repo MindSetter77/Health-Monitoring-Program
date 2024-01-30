@@ -96,3 +96,4 @@ E:\GitHub\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFor
 E:\GitHub\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.genruntimeconfig.cache
 E:\GitHub\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\ref\WinFormsApp1.dll
 E:\GitHub\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.MealForm.resources
+X:\ProjektZdrowotny\Health-Monitoring-Program\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.MealForm.resources
