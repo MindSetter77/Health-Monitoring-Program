@@ -36,9 +36,10 @@ namespace WinFormsApp1
             // 
             // button1
             // 
-            button1.Location = new Point(90, 186);
+            button1.Location = new Point(100, 207);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(86, 31);
             button1.TabIndex = 0;
             button1.Text = "Usuń";
             button1.UseVisualStyleBackColor = true;
@@ -46,29 +47,32 @@ namespace WinFormsApp1
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(90, 103);
+            textBox1.Location = new Point(86, 150);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(114, 27);
             textBox1.TabIndex = 1;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(64, 106);
+            label1.Location = new Point(17, 113);
             label1.Name = "label1";
-            label1.Size = new Size(20, 15);
+            label1.Size = new Size(254, 20);
             label1.TabIndex = 2;
-            label1.Text = "Id:";
+            label1.Text = "Nazwa produktu który chcesz usunąć:";
             label1.Click += label1_Click;
             // 
             // Form3
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(248, 312);
+            ClientSize = new Size(283, 416);
             Controls.Add(label1);
             Controls.Add(textBox1);
             Controls.Add(button1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form3";
             Text = "Form3";
             ResumeLayout(false);

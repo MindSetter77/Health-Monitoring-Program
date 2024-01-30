@@ -62,8 +62,6 @@
             minusDayBtn = new Button();
             dateLabel = new Label();
             caloryLabel = new Label();
-            bmiPanel = new Panel();
-            label3 = new Label();
             SGpanel = new Panel();
             saveChangesBtn = new Button();
             ageTB = new TextBox();
@@ -76,6 +74,8 @@
             wzrostLabel = new Label();
             wagaLabel = new Label();
             nameLabel = new Label();
+            bmiPanel = new Panel();
+            label3 = new Label();
             infonewLabel = new Label();
             bmiOpinion = new Label();
             bmiInput = new Label();
@@ -92,16 +92,17 @@
             panel1.SuspendLayout();
             foodPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
-            bmiPanel.SuspendLayout();
             SGpanel.SuspendLayout();
+            bmiPanel.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(0, -4);
+            pictureBox1.Location = new Point(0, -5);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(973, 596);
+            pictureBox1.Size = new Size(1112, 795);
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
@@ -111,9 +112,10 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button1.ForeColor = SystemColors.ControlLightLight;
-            button1.Location = new Point(64, 212);
+            button1.Location = new Point(73, 283);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(233, 50);
+            button1.Size = new Size(266, 67);
             button1.TabIndex = 0;
             button1.Text = "Login";
             button1.UseVisualStyleBackColor = false;
@@ -125,9 +127,10 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button2.ForeColor = Color.DeepSkyBlue;
-            button2.Location = new Point(64, 305);
+            button2.Location = new Point(73, 407);
+            button2.Margin = new Padding(3, 4, 3, 4);
             button2.Name = "button2";
-            button2.Size = new Size(233, 50);
+            button2.Size = new Size(266, 67);
             button2.TabIndex = 1;
             button2.Text = "Register";
             button2.UseVisualStyleBackColor = false;
@@ -139,17 +142,19 @@
             choosePanel.Controls.Add(pictureBox2);
             choosePanel.Controls.Add(button2);
             choosePanel.Controls.Add(button1);
-            choosePanel.Location = new Point(306, 74);
+            choosePanel.Location = new Point(350, 99);
+            choosePanel.Margin = new Padding(3, 4, 3, 4);
             choosePanel.Name = "choosePanel";
-            choosePanel.Size = new Size(355, 431);
+            choosePanel.Size = new Size(406, 575);
             choosePanel.TabIndex = 0;
             // 
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.logo;
-            pictureBox2.Location = new Point(106, 27);
+            pictureBox2.Location = new Point(121, 36);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(151, 151);
+            pictureBox2.Size = new Size(173, 201);
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
             // 
@@ -161,18 +166,20 @@
             loginPanel.Controls.Add(textBox2);
             loginPanel.Controls.Add(textBox1);
             loginPanel.Controls.Add(button4);
-            loginPanel.Location = new Point(306, 74);
+            loginPanel.Location = new Point(350, 99);
+            loginPanel.Margin = new Padding(3, 4, 3, 4);
             loginPanel.Name = "loginPanel";
-            loginPanel.Size = new Size(355, 431);
+            loginPanel.Size = new Size(406, 575);
             loginPanel.TabIndex = 3;
             // 
             // backButton
             // 
             backButton.FlatStyle = FlatStyle.Flat;
             backButton.ForeColor = Color.DeepSkyBlue;
-            backButton.Location = new Point(139, 383);
+            backButton.Location = new Point(159, 511);
+            backButton.Margin = new Padding(3, 4, 3, 4);
             backButton.Name = "backButton";
-            backButton.Size = new Size(75, 23);
+            backButton.Size = new Size(86, 31);
             backButton.TabIndex = 3;
             backButton.Text = "Back";
             backButton.UseVisualStyleBackColor = true;
@@ -181,30 +188,33 @@
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.logo_small;
-            pictureBox3.Location = new Point(126, 26);
+            pictureBox3.Location = new Point(144, 35);
+            pictureBox3.Margin = new Padding(3, 4, 3, 4);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(100, 100);
+            pictureBox3.Size = new Size(114, 133);
             pictureBox3.TabIndex = 3;
             pictureBox3.TabStop = false;
             // 
             // textBox2
             // 
             textBox2.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox2.Location = new Point(62, 239);
+            textBox2.Location = new Point(71, 319);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.PlaceholderText = "Password";
-            textBox2.Size = new Size(233, 35);
+            textBox2.Size = new Size(266, 45);
             textBox2.TabIndex = 2;
             // 
             // textBox1
             // 
             textBox1.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(61, 157);
+            textBox1.Location = new Point(70, 209);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "Login";
-            textBox1.Size = new Size(233, 38);
+            textBox1.Size = new Size(266, 49);
             textBox1.TabIndex = 1;
             // 
             // button4
@@ -213,9 +223,10 @@
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button4.ForeColor = SystemColors.ControlLightLight;
-            button4.Location = new Point(61, 307);
+            button4.Location = new Point(70, 409);
+            button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
-            button4.Size = new Size(233, 50);
+            button4.Size = new Size(266, 67);
             button4.TabIndex = 0;
             button4.Text = "Login";
             button4.UseVisualStyleBackColor = false;
@@ -231,38 +242,42 @@
             registerPanel.Controls.Add(textBox3);
             registerPanel.Controls.Add(textBox4);
             registerPanel.Controls.Add(button5);
-            registerPanel.Location = new Point(306, 74);
+            registerPanel.Location = new Point(350, 99);
+            registerPanel.Margin = new Padding(3, 4, 3, 4);
             registerPanel.Name = "registerPanel";
-            registerPanel.Size = new Size(355, 431);
+            registerPanel.Size = new Size(406, 575);
             registerPanel.TabIndex = 4;
             // 
             // textBox6
             // 
             textBox6.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox6.Location = new Point(61, 177);
+            textBox6.Location = new Point(70, 236);
+            textBox6.Margin = new Padding(3, 4, 3, 4);
             textBox6.Multiline = true;
             textBox6.Name = "textBox6";
             textBox6.PlaceholderText = "Email";
-            textBox6.Size = new Size(233, 35);
+            textBox6.Size = new Size(266, 45);
             textBox6.TabIndex = 5;
             // 
             // textBox5
             // 
             textBox5.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox5.Location = new Point(61, 285);
+            textBox5.Location = new Point(70, 380);
+            textBox5.Margin = new Padding(3, 4, 3, 4);
             textBox5.Multiline = true;
             textBox5.Name = "textBox5";
             textBox5.PlaceholderText = "Repeat Password";
-            textBox5.Size = new Size(233, 35);
+            textBox5.Size = new Size(266, 45);
             textBox5.TabIndex = 4;
             // 
             // button3
             // 
             button3.FlatStyle = FlatStyle.Flat;
             button3.ForeColor = Color.DeepSkyBlue;
-            button3.Location = new Point(139, 402);
+            button3.Location = new Point(159, 536);
+            button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
-            button3.Size = new Size(75, 23);
+            button3.Size = new Size(86, 31);
             button3.TabIndex = 3;
             button3.Text = "Back";
             button3.UseVisualStyleBackColor = true;
@@ -271,30 +286,33 @@
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.logo_small;
-            pictureBox4.Location = new Point(124, 3);
+            pictureBox4.Location = new Point(142, 4);
+            pictureBox4.Margin = new Padding(3, 4, 3, 4);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(100, 100);
+            pictureBox4.Size = new Size(114, 133);
             pictureBox4.TabIndex = 3;
             pictureBox4.TabStop = false;
             // 
             // textBox3
             // 
             textBox3.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox3.Location = new Point(61, 231);
+            textBox3.Location = new Point(70, 308);
+            textBox3.Margin = new Padding(3, 4, 3, 4);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
             textBox3.PlaceholderText = "Password";
-            textBox3.Size = new Size(233, 35);
+            textBox3.Size = new Size(266, 45);
             textBox3.TabIndex = 2;
             // 
             // textBox4
             // 
             textBox4.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox4.Location = new Point(61, 120);
+            textBox4.Location = new Point(70, 160);
+            textBox4.Margin = new Padding(3, 4, 3, 4);
             textBox4.Multiline = true;
             textBox4.Name = "textBox4";
             textBox4.PlaceholderText = "Login";
-            textBox4.Size = new Size(233, 38);
+            textBox4.Size = new Size(266, 49);
             textBox4.TabIndex = 1;
             // 
             // button5
@@ -303,9 +321,10 @@
             button5.FlatStyle = FlatStyle.Flat;
             button5.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
             button5.ForeColor = SystemColors.ControlLightLight;
-            button5.Location = new Point(61, 339);
+            button5.Location = new Point(70, 452);
+            button5.Margin = new Padding(3, 4, 3, 4);
             button5.Name = "button5";
-            button5.Size = new Size(233, 50);
+            button5.Size = new Size(266, 67);
             button5.TabIndex = 0;
             button5.Text = "Register";
             button5.UseVisualStyleBackColor = false;
@@ -318,8 +337,9 @@
             mainPanel.Controls.Add(SGpanel);
             mainPanel.Controls.Add(bmiPanel);
             mainPanel.Location = new Point(0, -1);
+            mainPanel.Margin = new Padding(3, 4, 3, 4);
             mainPanel.Name = "mainPanel";
-            mainPanel.Size = new Size(973, 596);
+            mainPanel.Size = new Size(1112, 795);
             mainPanel.TabIndex = 4;
             // 
             // panel1
@@ -331,16 +351,18 @@
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(219, 596);
+            panel1.Size = new Size(250, 795);
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
             // 
             // bmiBtn
             // 
-            bmiBtn.Location = new Point(12, 204);
+            bmiBtn.Location = new Point(14, 272);
+            bmiBtn.Margin = new Padding(3, 4, 3, 4);
             bmiBtn.Name = "bmiBtn";
-            bmiBtn.Size = new Size(189, 37);
+            bmiBtn.Size = new Size(216, 49);
             bmiBtn.TabIndex = 5;
             bmiBtn.Text = "BMI";
             bmiBtn.UseVisualStyleBackColor = true;
@@ -348,9 +370,10 @@
             // 
             // foodBtn
             // 
-            foodBtn.Location = new Point(12, 139);
+            foodBtn.Location = new Point(14, 185);
+            foodBtn.Margin = new Padding(3, 4, 3, 4);
             foodBtn.Name = "foodBtn";
-            foodBtn.Size = new Size(189, 37);
+            foodBtn.Size = new Size(216, 49);
             foodBtn.TabIndex = 4;
             foodBtn.Text = "Jedzenie";
             foodBtn.UseVisualStyleBackColor = true;
@@ -359,9 +382,10 @@
             // mainBtn
             // 
             mainBtn.BackColor = Color.Transparent;
-            mainBtn.Location = new Point(15, 75);
+            mainBtn.Location = new Point(17, 100);
+            mainBtn.Margin = new Padding(3, 4, 3, 4);
             mainBtn.Name = "mainBtn";
-            mainBtn.Size = new Size(189, 38);
+            mainBtn.Size = new Size(216, 51);
             mainBtn.TabIndex = 3;
             mainBtn.Text = "Strona główna";
             mainBtn.UseVisualStyleBackColor = false;
@@ -371,9 +395,9 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Century Gothic", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(60, 22);
+            label1.Location = new Point(69, 29);
             label1.Name = "label1";
-            label1.Size = new Size(89, 24);
+            label1.Size = new Size(121, 33);
             label1.TabIndex = 2;
             label1.Text = "Zdrowie";
             label1.Click += label1_Click;
@@ -388,17 +412,19 @@
             foodPanel.Controls.Add(minusDayBtn);
             foodPanel.Controls.Add(dateLabel);
             foodPanel.Controls.Add(caloryLabel);
-            foodPanel.Location = new Point(226, 10);
+            foodPanel.Location = new Point(258, 13);
+            foodPanel.Margin = new Padding(3, 4, 3, 4);
             foodPanel.Name = "foodPanel";
-            foodPanel.Size = new Size(732, 569);
+            foodPanel.Size = new Size(837, 759);
             foodPanel.TabIndex = 4;
             foodPanel.Paint += foodPanel_Paint;
             // 
             // button7
             // 
-            button7.Location = new Point(449, 112);
+            button7.Location = new Point(509, 149);
+            button7.Margin = new Padding(3, 4, 3, 4);
             button7.Name = "button7";
-            button7.Size = new Size(46, 44);
+            button7.Size = new Size(53, 59);
             button7.TabIndex = 10;
             button7.Text = "-";
             button7.UseVisualStyleBackColor = true;
@@ -406,9 +432,10 @@
             // 
             // button6
             // 
-            button6.Location = new Point(625, 112);
+            button6.Location = new Point(643, 149);
+            button6.Margin = new Padding(3, 4, 3, 4);
             button6.Name = "button6";
-            button6.Size = new Size(46, 44);
+            button6.Size = new Size(53, 59);
             button6.TabIndex = 9;
             button6.Text = "+";
             button6.UseVisualStyleBackColor = true;
@@ -417,17 +444,20 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(19, 112);
+            dataGridView1.Location = new Point(22, 149);
+            dataGridView1.Margin = new Padding(3, 4, 3, 4);
             dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 51;
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(327, 411);
+            dataGridView1.Size = new Size(374, 548);
             dataGridView1.TabIndex = 8;
             // 
             // addDayBtn
             // 
-            addDayBtn.Location = new Point(521, 58);
+            addDayBtn.Location = new Point(595, 77);
+            addDayBtn.Margin = new Padding(3, 4, 3, 4);
             addDayBtn.Name = "addDayBtn";
-            addDayBtn.Size = new Size(75, 35);
+            addDayBtn.Size = new Size(86, 47);
             addDayBtn.TabIndex = 7;
             addDayBtn.Text = "🢂";
             addDayBtn.UseVisualStyleBackColor = true;
@@ -435,9 +465,10 @@
             // 
             // minusDayBtn
             // 
-            minusDayBtn.Location = new Point(157, 58);
+            minusDayBtn.Location = new Point(179, 77);
+            minusDayBtn.Margin = new Padding(3, 4, 3, 4);
             minusDayBtn.Name = "minusDayBtn";
-            minusDayBtn.Size = new Size(72, 36);
+            minusDayBtn.Size = new Size(82, 48);
             minusDayBtn.TabIndex = 6;
             minusDayBtn.Text = "🢀";
             minusDayBtn.UseVisualStyleBackColor = true;
@@ -447,9 +478,9 @@
             // 
             dateLabel.AutoSize = true;
             dateLabel.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            dateLabel.Location = new Point(318, 66);
+            dateLabel.Location = new Point(363, 88);
             dateLabel.Name = "dateLabel";
-            dateLabel.Size = new Size(56, 22);
+            dateLabel.Size = new Size(69, 30);
             dateLabel.TabIndex = 5;
             dateLabel.Text = "data";
             dateLabel.Click += dateLabel_Click;
@@ -458,35 +489,12 @@
             // 
             caloryLabel.AutoSize = true;
             caloryLabel.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            caloryLabel.Location = new Point(228, 19);
+            caloryLabel.Location = new Point(261, 25);
             caloryLabel.Name = "caloryLabel";
-            caloryLabel.Size = new Size(280, 22);
+            caloryLabel.Size = new Size(360, 30);
             caloryLabel.TabIndex = 0;
             caloryLabel.Text = "Zapotrzebowanie kaloryczne:";
-            // 
-            // bmiPanel
-            // 
-            bmiPanel.Controls.Add(label3);
-            bmiPanel.Controls.Add(infonewLabel);
-            bmiPanel.Controls.Add(bmiOpinion);
-            bmiPanel.Controls.Add(bmiInput);
-            bmiPanel.Controls.Add(label2);
-            bmiPanel.Controls.Add(bmiMainLabel);
-            bmiPanel.Location = new Point(225, 9);
-            bmiPanel.Name = "bmiPanel";
-            bmiPanel.Size = new Size(736, 572);
-            bmiPanel.TabIndex = 4;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Century Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(58, 385);
-            label3.Name = "label3";
-            label3.Size = new Size(94, 23);
-            label3.TabIndex = 9;
-            label3.Text = "Wartości:";
-            label3.Click += label3_Click;
+            caloryLabel.Click += caloryLabel_Click;
             // 
             // SGpanel
             // 
@@ -501,16 +509,18 @@
             SGpanel.Controls.Add(wzrostLabel);
             SGpanel.Controls.Add(wagaLabel);
             SGpanel.Controls.Add(nameLabel);
-            SGpanel.Location = new Point(226, 10);
+            SGpanel.Location = new Point(258, 13);
+            SGpanel.Margin = new Padding(3, 4, 3, 4);
             SGpanel.Name = "SGpanel";
-            SGpanel.Size = new Size(736, 572);
+            SGpanel.Size = new Size(841, 763);
             SGpanel.TabIndex = 1;
             // 
             // saveChangesBtn
             // 
-            saveChangesBtn.Location = new Point(308, 523);
+            saveChangesBtn.Location = new Point(352, 697);
+            saveChangesBtn.Margin = new Padding(3, 4, 3, 4);
             saveChangesBtn.Name = "saveChangesBtn";
-            saveChangesBtn.Size = new Size(121, 31);
+            saveChangesBtn.Size = new Size(138, 41);
             saveChangesBtn.TabIndex = 11;
             saveChangesBtn.Text = "Zapisz zmiany";
             saveChangesBtn.UseVisualStyleBackColor = true;
@@ -519,50 +529,55 @@
             // ageTB
             // 
             ageTB.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ageTB.Location = new Point(84, 158);
+            ageTB.Location = new Point(96, 211);
+            ageTB.Margin = new Padding(3, 4, 3, 4);
             ageTB.Name = "ageTB";
-            ageTB.Size = new Size(141, 31);
+            ageTB.Size = new Size(161, 37);
             ageTB.TabIndex = 10;
             // 
             // sexTB
             // 
             sexTB.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            sexTB.Location = new Point(84, 124);
+            sexTB.Location = new Point(96, 165);
+            sexTB.Margin = new Padding(3, 4, 3, 4);
             sexTB.Name = "sexTB";
-            sexTB.Size = new Size(141, 31);
+            sexTB.Size = new Size(161, 37);
             sexTB.TabIndex = 9;
             // 
             // heightTB
             // 
             heightTB.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            heightTB.Location = new Point(84, 89);
+            heightTB.Location = new Point(96, 119);
+            heightTB.Margin = new Padding(3, 4, 3, 4);
             heightTB.Name = "heightTB";
-            heightTB.Size = new Size(141, 31);
+            heightTB.Size = new Size(161, 37);
             heightTB.TabIndex = 8;
             // 
             // weightTB
             // 
             weightTB.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            weightTB.Location = new Point(84, 53);
+            weightTB.Location = new Point(96, 71);
+            weightTB.Margin = new Padding(3, 4, 3, 4);
             weightTB.Name = "weightTB";
-            weightTB.Size = new Size(141, 31);
+            weightTB.Size = new Size(161, 37);
             weightTB.TabIndex = 7;
             // 
             // nameTB
             // 
             nameTB.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            nameTB.Location = new Point(84, 16);
+            nameTB.Location = new Point(96, 21);
+            nameTB.Margin = new Padding(3, 4, 3, 4);
             nameTB.Name = "nameTB";
-            nameTB.Size = new Size(141, 31);
+            nameTB.Size = new Size(161, 37);
             nameTB.TabIndex = 6;
             // 
             // ageLabel
             // 
             ageLabel.AutoSize = true;
             ageLabel.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            ageLabel.Location = new Point(31, 161);
+            ageLabel.Location = new Point(35, 215);
             ageLabel.Name = "ageLabel";
-            ageLabel.Size = new Size(62, 22);
+            ageLabel.Size = new Size(84, 30);
             ageLabel.TabIndex = 5;
             ageLabel.Text = "Wiek: ";
             // 
@@ -570,9 +585,9 @@
             // 
             sexLabel.AutoSize = true;
             sexLabel.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            sexLabel.Location = new Point(33, 127);
+            sexLabel.Location = new Point(38, 169);
             sexLabel.Name = "sexLabel";
-            sexLabel.Size = new Size(61, 22);
+            sexLabel.Size = new Size(80, 30);
             sexLabel.TabIndex = 3;
             sexLabel.Text = "Płeć: ";
             // 
@@ -580,9 +595,9 @@
             // 
             wzrostLabel.AutoSize = true;
             wzrostLabel.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            wzrostLabel.Location = new Point(18, 92);
+            wzrostLabel.Location = new Point(21, 123);
             wzrostLabel.Name = "wzrostLabel";
-            wzrostLabel.Size = new Size(77, 22);
+            wzrostLabel.Size = new Size(101, 30);
             wzrostLabel.TabIndex = 2;
             wzrostLabel.Text = "Wzrost: ";
             wzrostLabel.Click += label2_Click_2;
@@ -591,9 +606,9 @@
             // 
             wagaLabel.AutoSize = true;
             wagaLabel.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            wagaLabel.Location = new Point(18, 53);
+            wagaLabel.Location = new Point(21, 71);
             wagaLabel.Name = "wagaLabel";
-            wagaLabel.Size = new Size(76, 22);
+            wagaLabel.Size = new Size(98, 30);
             wagaLabel.TabIndex = 1;
             wagaLabel.Text = "Waga: ";
             wagaLabel.Click += label2_Click_1;
@@ -602,28 +617,53 @@
             // 
             nameLabel.AutoSize = true;
             nameLabel.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            nameLabel.Location = new Point(34, 20);
+            nameLabel.Location = new Point(39, 27);
             nameLabel.Name = "nameLabel";
-            nameLabel.Size = new Size(57, 22);
+            nameLabel.Size = new Size(79, 30);
             nameLabel.TabIndex = 0;
             nameLabel.Text = "Imie: ";
             nameLabel.Click += label2_Click;
             // 
+            // bmiPanel
+            // 
+            bmiPanel.Controls.Add(label3);
+            bmiPanel.Controls.Add(infonewLabel);
+            bmiPanel.Controls.Add(bmiOpinion);
+            bmiPanel.Controls.Add(bmiInput);
+            bmiPanel.Controls.Add(label2);
+            bmiPanel.Controls.Add(bmiMainLabel);
+            bmiPanel.Location = new Point(257, 12);
+            bmiPanel.Margin = new Padding(3, 4, 3, 4);
+            bmiPanel.Name = "bmiPanel";
+            bmiPanel.Size = new Size(841, 763);
+            bmiPanel.TabIndex = 4;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Century Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.Location = new Point(66, 513);
+            label3.Name = "label3";
+            label3.Size = new Size(119, 28);
+            label3.TabIndex = 9;
+            label3.Text = "Wartości:";
+            label3.Click += label3_Click;
+            // 
             // infonewLabel
             // 
             infonewLabel.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            infonewLabel.Location = new Point(158, 386);
+            infonewLabel.Location = new Point(181, 515);
             infonewLabel.Name = "infonewLabel";
-            infonewLabel.Size = new Size(331, 96);
+            infonewLabel.Size = new Size(378, 128);
             infonewLabel.TabIndex = 8;
             infonewLabel.Text = "asd";
             // 
             // bmiOpinion
             // 
             bmiOpinion.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            bmiOpinion.Location = new Point(286, 198);
+            bmiOpinion.Location = new Point(327, 264);
             bmiOpinion.Name = "bmiOpinion";
-            bmiOpinion.Size = new Size(171, 44);
+            bmiOpinion.Size = new Size(195, 59);
             bmiOpinion.TabIndex = 7;
             bmiOpinion.Text = "label3";
             bmiOpinion.TextAlign = ContentAlignment.TopCenter;
@@ -631,18 +671,18 @@
             // bmiInput
             // 
             bmiInput.Font = new Font("Century Gothic", 72F, FontStyle.Regular, GraphicsUnit.Point);
-            bmiInput.Location = new Point(235, 69);
+            bmiInput.Location = new Point(269, 92);
             bmiInput.Name = "bmiInput";
-            bmiInput.Size = new Size(323, 110);
+            bmiInput.Size = new Size(369, 147);
             bmiInput.TabIndex = 6;
             bmiInput.Text = "0.0";
             // 
             // label2
             // 
             label2.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label2.Location = new Point(27, 277);
+            label2.Location = new Point(31, 369);
             label2.Name = "label2";
-            label2.Size = new Size(694, 97);
+            label2.Size = new Size(793, 129);
             label2.TabIndex = 5;
             label2.Text = resources.GetString("label2.Text");
             label2.TextAlign = ContentAlignment.TopCenter;
@@ -652,22 +692,23 @@
             // 
             bmiMainLabel.AutoSize = true;
             bmiMainLabel.Font = new Font("Century Gothic", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            bmiMainLabel.Location = new Point(275, 41);
+            bmiMainLabel.Location = new Point(314, 55);
             bmiMainLabel.Name = "bmiMainLabel";
-            bmiMainLabel.Size = new Size(193, 25);
+            bmiMainLabel.Size = new Size(249, 32);
             bmiMainLabel.TabIndex = 3;
             bmiMainLabel.Text = "Twoje BMI wynosi:";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(973, 592);
+            ClientSize = new Size(1112, 789);
             Controls.Add(mainPanel);
             Controls.Add(registerPanel);
             Controls.Add(choosePanel);
             Controls.Add(loginPanel);
             Controls.Add(pictureBox1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -686,10 +727,10 @@
             foodPanel.ResumeLayout(false);
             foodPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
-            bmiPanel.ResumeLayout(false);
-            bmiPanel.PerformLayout();
             SGpanel.ResumeLayout(false);
             SGpanel.PerformLayout();
+            bmiPanel.ResumeLayout(false);
+            bmiPanel.PerformLayout();
             ResumeLayout(false);
         }
 

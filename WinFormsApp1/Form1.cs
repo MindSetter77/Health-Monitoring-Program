@@ -455,5 +455,10 @@ namespace WinFormsApp1
             Form3 deleteMeal = new Form3(MealIdGenerator.MakeMealId(dzienWyswietlany));
             deleteMeal.Show();
         }
+
+        private void caloryLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

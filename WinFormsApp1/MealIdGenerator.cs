@@ -10,7 +10,7 @@ namespace WinFormsApp1
     {
         public static string MakeMealId(DateTime time)
         {
-            int[] desiredPositions = { 0, 1, 3, 4, 6, 7, 8, 9 };
+            int[] desiredPositions = { 1, 3, 4, 6, 7, 8, 9 };
             string result = "";
 
             string originalString = time.ToString();
