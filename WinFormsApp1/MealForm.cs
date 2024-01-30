@@ -198,6 +198,8 @@ namespace WinFormsApp1
 
             // Wyświetl przewidywane kalorie dla wpisanej wagi produktu w TextBox
             textBox2.Text = predictedCalories.ToString("F2");
+            
+            Form1.instance.RunMakeSqlDbMeals();
 
             // Zapisz dane do bazy danych MySQL
             string mysqlCon = "server=127.0.0.1; user=root; database=hrdb; password=";
